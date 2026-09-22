@@ -1,0 +1,13 @@
+# Generated data (regenerate via data_extraction.ipynb; ~600MB+ of FITS cutouts)
+FIRST_FITS_CUTOUTS/
+mirabest_data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local backups / scratch
+*.bak_preclear
