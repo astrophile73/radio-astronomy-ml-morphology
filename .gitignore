@@ -11,3 +11,21 @@ __pycache__/
 
 # Local backups / scratch
 *.bak_preclear
+
+# Externally downloaded reference data (regenerate: see scripts/gate3_leg3_components.py)
+data_external/
+
+# Cached inference tensors and bulk fetches (regenerate from scripts/).
+# research/_kfold/ is deliberately NOT ignored: it holds the 5-fold held-out reference,
+# which costs 25 trainings to regenerate and is only ~270 KB.
+research/_view_probs/
+research/_view_probs_cpu/
+research/_structure_stats.npz
+research/_first_neighbours.parquet
+research/_first_catalogue_positions.parquet
+mirabest_data/_batches_cache/
+
+# Run logs (the JSON outputs beside them are the record)
+research/*_run.log
+research/gate3_leg1b.log
+research/gate3_leg3.log
