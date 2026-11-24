@@ -1,0 +1,232 @@
+{
+  "summaries": {
+    "candidates": {
+      "cohort": "candidates",
+      "flip": {
+        "n": 1996,
+        "k": 433,
+        "rate": 0.21693386773547094,
+        "ci_lo": 0.19889779559118237,
+        "ci_hi": 0.23547094188376755,
+        "wilson_lo": 0.19940514075746205,
+        "wilson_hi": 0.23555010769821566
+      },
+      "seed_disagree": {
+        "n": 1996,
+        "k": 835,
+        "rate": 0.4183366733466934,
+        "ci_lo": 0.39629258517034066,
+        "ci_hi": 0.43987975951903807,
+        "wilson_lo": 0.3968729062193908,
+        "wilson_hi": 0.44011418315808787
+      },
+      "uncertain_band": {
+        "n": 1996,
+        "k": 1579,
+        "rate": 0.7910821643286573,
+        "ci_lo": 0.7730460921843687,
+        "ci_hi": 0.8086172344689379,
+        "wilson_lo": 0.772696325245596,
+        "wilson_hi": 0.8083496935990966
+      },
+      "ambiguity": {
+        "n": 1996,
+        "median": 0.32602819431340324,
+        "ci_lo": 0.31353046281932617,
+        "ci_hi": 0.33717367909848694
+      }
+    },
+    "mirabest_confident_test": {
+      "cohort": "mirabest_confident_test",
+      "flip": {
+        "n": 104,
+        "k": 9,
+        "rate": 0.08653846153846154,
+        "ci_lo": 0.038461538461538464,
+        "ci_hi": 0.14423076923076922,
+        "wilson_lo": 0.04619542485248201,
+        "wilson_hi": 0.15633866217886766
+      },
+      "seed_disagree": {
+        "n": 104,
+        "k": 16,
+        "rate": 0.15384615384615385,
+        "ci_lo": 0.08653846153846154,
+        "ci_hi": 0.22115384615384615,
+        "wilson_lo": 0.09697218287895282,
+        "wilson_hi": 0.23538193649613065
+      },
+      "uncertain_band": {
+        "n": 104,
+        "k": 44,
+        "rate": 0.4230769230769231,
+        "ci_lo": 0.3269230769230769,
+        "ci_hi": 0.5192307692307693,
+        "wilson_lo": 0.33253058618917686,
+        "wilson_hi": 0.5191036625608417
+      },
+      "ambiguity": {
+        "n": 104,
+        "median": 0.4806094944477081,
+        "ci_lo": 0.44471400752663615,
+        "ci_hi": 0.4901158729148732
+      }
+    },
+    "mirabest_confident_train": {
+      "cohort": "mirabest_confident_train",
+      "flip": {
+        "n": 729,
+        "k": 13,
+        "rate": 0.01783264746227709,
+        "ci_lo": 0.00823045267489712,
+        "ci_hi": 0.02880658436213992,
+        "wilson_lo": 0.010450539203658125,
+        "wilson_hi": 0.03026985658173397
+      },
+      "seed_disagree": {
+        "n": 729,
+        "k": 95,
+        "rate": 0.13031550068587106,
+        "ci_lo": 0.10699588477366255,
+        "ci_hi": 0.1550068587105624,
+        "wilson_lo": 0.10780231768510376,
+        "wilson_hi": 0.15670450070511865
+      },
+      "uncertain_band": {
+        "n": 729,
+        "k": 241,
+        "rate": 0.33058984910836764,
+        "ci_lo": 0.29766803840877915,
+        "ci_hi": 0.3662551440329218,
+        "wilson_lo": 0.29740654567855457,
+        "wilson_hi": 0.3655492690568535
+      },
+      "ambiguity": {
+        "n": 729,
+        "median": 0.4783648607033683,
+        "ci_lo": 0.4732246103376383,
+        "ci_hi": 0.4822320163249969
+      }
+    },
+    "mirabest_uncertain": {
+      "cohort": "mirabest_uncertain",
+      "flip": {
+        "n": 389,
+        "k": 94,
+        "rate": 0.2416452442159383,
+        "ci_lo": 0.20051413881748073,
+        "ci_hi": 0.2853470437017995,
+        "wilson_lo": 0.20176399431236383,
+        "wilson_hi": 0.28657939905534463
+      },
+      "seed_disagree": {
+        "n": 389,
+        "k": 154,
+        "rate": 0.39588688946015427,
+        "ci_lo": 0.34704370179948585,
+        "ci_hi": 0.44473007712082263,
+        "wilson_lo": 0.34853365768264627,
+        "wilson_hi": 0.445276366510311
+      },
+      "uncertain_band": {
+        "n": 389,
+        "k": 259,
+        "rate": 0.6658097686375322,
+        "ci_lo": 0.6195372750642674,
+        "ci_hi": 0.712082262210797,
+        "wilson_lo": 0.6175136166759982,
+        "wilson_hi": 0.7108630114611442
+      },
+      "ambiguity": {
+        "n": 389,
+        "median": 0.36408828133717175,
+        "ci_lo": 0.3391860258299857,
+        "ci_hi": 0.3886155168176629
+      }
+    },
+    "mirabest_hybrid": {
+      "cohort": "mirabest_hybrid",
+      "flip": {
+        "n": 34,
+        "k": 14,
+        "rate": 0.4117647058823529,
+        "ci_lo": 0.23529411764705882,
+        "ci_hi": 0.5882352941176471,
+        "wilson_lo": 0.2636573778568886,
+        "wilson_hi": 0.5777869585348073
+      },
+      "seed_disagree": {
+        "n": 34,
+        "k": 14,
+        "rate": 0.4117647058823529,
+        "ci_lo": 0.23529411764705882,
+        "ci_hi": 0.5882352941176471,
+        "wilson_lo": 0.2636573778568886,
+        "wilson_hi": 0.5777869585348073
+      },
+      "uncertain_band": {
+        "n": 34,
+        "k": 28,
+        "rate": 0.8235294117647058,
+        "ci_lo": 0.6764705882352942,
+        "ci_hi": 0.9411764705882353,
+        "wilson_lo": 0.6648593225994784,
+        "wilson_hi": 0.9165114439643032
+      },
+      "ambiguity": {
+        "n": 34,
+        "median": 0.25893504359264624,
+        "ci_lo": 0.17807149927830324,
+        "ci_hi": 0.3834747968783631
+      }
+    }
+  },
+  "criteria": [
+    {
+      "metric": "dihedral_flip_rate (P1-3)",
+      "candidate_rate": 0.21693386773547094,
+      "reference_rate": 0.08653846153846154,
+      "gap_pp": 13.03954061970094,
+      "cis_overlap": false,
+      "reference_above_15pc": false,
+      "verdict": "PASS"
+    },
+    {
+      "metric": "seed_disagreement (P1-4)",
+      "candidate_rate": 0.4183366733466934,
+      "reference_rate": 0.15384615384615385,
+      "gap_pp": 26.449051950053953,
+      "cis_overlap": false,
+      "reference_above_15pc": true,
+      "verdict": "FAIL"
+    },
+    {
+      "metric": "uncertain_band (exploratory)",
+      "candidate_rate": 0.7910821643286573,
+      "reference_rate": 0.4230769230769231,
+      "gap_pp": 36.800524125173425,
+      "cis_overlap": false,
+      "reference_above_15pc": true,
+      "verdict": "FAIL"
+    }
+  ],
+  "h4": {
+    "mirabest_uncertain": {
+      "median": 0.36408828133717175,
+      "p_value": 2.9324246066937116e-10,
+      "more_ambiguous_than_confident_test": true
+    },
+    "mirabest_hybrid": {
+      "median": 0.25893504359264624,
+      "p_value": 7.174984514833468e-07,
+      "more_ambiguous_than_confident_test": true
+    }
+  },
+  "cohort_sizes": {
+    "candidates": 1996,
+    "mirabest_confident_test": 104,
+    "mirabest_confident_train": 729,
+    "mirabest_uncertain": 389,
+    "mirabest_hybrid": 34
+  }
+}

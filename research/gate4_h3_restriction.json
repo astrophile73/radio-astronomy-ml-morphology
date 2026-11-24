@@ -1,0 +1,232 @@
+{
+  "reference": {
+    "n": 104,
+    "k": 8,
+    "rate": 0.07692307692307693,
+    "ci_lo": 0.028846153846153848,
+    "ci_hi": 0.1346153846153846,
+    "wilson_lo": 0.039491280778462964,
+    "wilson_hi": 0.14449708734663902
+  },
+  "unrestricted": {
+    "n": 1996,
+    "k": 433,
+    "rate": 0.21693386773547094,
+    "ci_lo": 0.19889779559118237,
+    "ci_hi": 0.23547094188376755,
+    "wilson_lo": 0.19940514075746205,
+    "wilson_hi": 0.23555010769821566
+  },
+  "mirabest_size_range_arcsec": [
+    12.526,
+    127.86600000000003
+  ],
+  "subsets": {
+    "unrestricted": {
+      "n": 1996,
+      "flip": {
+        "n": 1996,
+        "k": 433,
+        "rate": 0.21693386773547094,
+        "ci_lo": 0.19889779559118237,
+        "ci_hi": 0.23547094188376755,
+        "wilson_lo": 0.19940514075746205,
+        "wilson_hi": 0.23555010769821566
+      },
+      "seed_disagree": {
+        "n": 1996,
+        "k": 835,
+        "rate": 0.4183366733466934,
+        "ci_lo": 0.39629258517034066,
+        "ci_hi": 0.43987975951903807,
+        "wilson_lo": 0.3968729062193908,
+        "wilson_hi": 0.44011418315808787
+      },
+      "ambiguity": {
+        "n": 1996,
+        "median": 0.32602819431340324,
+        "ci_lo": 0.31353046281932617,
+        "ci_hi": 0.33717367909848694
+      },
+      "uncertain_band": {
+        "n": 1996,
+        "k": 1579,
+        "rate": 0.7910821643286573,
+        "ci_lo": 0.7730460921843687,
+        "ci_hi": 0.8086172344689379,
+        "wilson_lo": 0.772696325245596,
+        "wilson_hi": 0.8083496935990966
+      },
+      "drop_pp_vs_unrestricted": 0.0,
+      "point_below_reference_upper": false,
+      "ci_overlaps_reference": false,
+      "ci_disjoint_from_unrestricted": false,
+      "tier": "NO RECOVERY"
+    },
+    "size_restricted": {
+      "n": 306,
+      "flip": {
+        "n": 306,
+        "k": 71,
+        "rate": 0.23202614379084968,
+        "ci_lo": 0.18627450980392157,
+        "ci_hi": 0.28104575163398693,
+        "wilson_lo": 0.1882281110362687,
+        "wilson_hi": 0.28246917428629614
+      },
+      "seed_disagree": {
+        "n": 306,
+        "k": 137,
+        "rate": 0.4477124183006536,
+        "ci_lo": 0.39215686274509803,
+        "ci_hi": 0.5032679738562091,
+        "wilson_lo": 0.39298769409930007,
+        "wilson_hi": 0.503733727427054
+      },
+      "ambiguity": {
+        "n": 306,
+        "median": 0.31700808751338627,
+        "ci_lo": 0.281805959250778,
+        "ci_hi": 0.33780598575249315
+      },
+      "uncertain_band": {
+        "n": 306,
+        "k": 232,
+        "rate": 0.7581699346405228,
+        "ci_lo": 0.7091503267973857,
+        "ci_hi": 0.803921568627451,
+        "wilson_lo": 0.7071829375455229,
+        "wilson_hi": 0.8027550436681037
+      },
+      "drop_pp_vs_unrestricted": -1.5092276055378746,
+      "point_below_reference_upper": false,
+      "ci_overlaps_reference": false,
+      "ci_disjoint_from_unrestricted": false,
+      "tier": "NO RECOVERY"
+    },
+    "single_component_2.25arcmin": {
+      "n": 627,
+      "flip": {
+        "n": 627,
+        "k": 107,
+        "rate": 0.17065390749601275,
+        "ci_lo": 0.1419457735247209,
+        "ci_hi": 0.20095693779904306,
+        "wilson_lo": 0.1432333867292031,
+        "wilson_hi": 0.20208562837696614
+      },
+      "seed_disagree": {
+        "n": 627,
+        "k": 244,
+        "rate": 0.38915470494417864,
+        "ci_lo": 0.3524720893141946,
+        "ci_hi": 0.4274322169059011,
+        "wilson_lo": 0.3517765287772417,
+        "wilson_hi": 0.42788289761442305
+      },
+      "ambiguity": {
+        "n": 627,
+        "median": 0.35255169756710525,
+        "ci_lo": 0.3363995191641152,
+        "ci_hi": 0.37457605451345444
+      },
+      "uncertain_band": {
+        "n": 627,
+        "k": 479,
+        "rate": 0.7639553429027113,
+        "ci_lo": 0.7304625199362041,
+        "ci_hi": 0.7974481658692185,
+        "wilson_lo": 0.7291709353748637,
+        "wilson_hi": 0.7955249629298771
+      },
+      "drop_pp_vs_unrestricted": 4.627996023945818,
+      "point_below_reference_upper": false,
+      "ci_overlaps_reference": false,
+      "ci_disjoint_from_unrestricted": false,
+      "tier": "NO RECOVERY"
+    },
+    "single_component_1arcmin": {
+      "n": 926,
+      "flip": {
+        "n": 926,
+        "k": 178,
+        "rate": 0.19222462203023757,
+        "ci_lo": 0.1673866090712743,
+        "ci_hi": 0.21814254859611232,
+        "wilson_lo": 0.1681362549164717,
+        "wilson_hi": 0.218856110234754
+      },
+      "seed_disagree": {
+        "n": 926,
+        "k": 381,
+        "rate": 0.4114470842332613,
+        "ci_lo": 0.3801295896328294,
+        "ci_hi": 0.4427645788336933,
+        "wilson_lo": 0.3801806647095898,
+        "wilson_hi": 0.4434452087725172
+      },
+      "ambiguity": {
+        "n": 926,
+        "median": 0.33501425955910236,
+        "ci_lo": 0.3135305879637599,
+        "ci_hi": 0.3488771922886371
+      },
+      "uncertain_band": {
+        "n": 926,
+        "k": 742,
+        "rate": 0.8012958963282938,
+        "ci_lo": 0.775377969762419,
+        "ci_hi": 0.8272138228941684,
+        "wilson_lo": 0.7743730365951541,
+        "wilson_hi": 0.825729174362067
+      },
+      "drop_pp_vs_unrestricted": 2.4709245705233363,
+      "point_below_reference_upper": false,
+      "ci_overlaps_reference": false,
+      "ci_disjoint_from_unrestricted": false,
+      "tier": "NO RECOVERY"
+    },
+    "both_size_and_single_2.25arcmin": {
+      "n": 48,
+      "flip": {
+        "n": 48,
+        "k": 10,
+        "rate": 0.20833333333333334,
+        "ci_lo": 0.10416666666666667,
+        "ci_hi": 0.3333333333333333,
+        "wilson_lo": 0.11730147795889814,
+        "wilson_hi": 0.3425917352135348
+      },
+      "seed_disagree": {
+        "n": 48,
+        "k": 23,
+        "rate": 0.4791666666666667,
+        "ci_lo": 0.3333333333333333,
+        "ci_hi": 0.625,
+        "wilson_lo": 0.34471090015787464,
+        "wilson_hi": 0.6167100436401561
+      },
+      "ambiguity": {
+        "n": 48,
+        "median": 0.37920005191554085,
+        "ci_lo": 0.23678977265954015,
+        "ci_hi": 0.42800422765722035
+      },
+      "uncertain_band": {
+        "n": 48,
+        "k": 33,
+        "rate": 0.6875,
+        "ci_lo": 0.5625,
+        "ci_hi": 0.8125,
+        "wilson_lo": 0.5466666274950367,
+        "wilson_hi": 0.8005448783226851
+      },
+      "drop_pp_vs_unrestricted": 0.8600534402137594,
+      "point_below_reference_upper": false,
+      "ci_overlaps_reference": true,
+      "ci_disjoint_from_unrestricted": false,
+      "tier": "NO RECOVERY"
+    }
+  },
+  "verdict": "NO RECOVERY"
+}

@@ -1,0 +1,70 @@
+{
+  "device": "cuda:0",
+  "cohorts": {
+    "candidates": {
+      "n": 1996,
+      "flip_cpu_pc": 21.693386773547093,
+      "flip_gpu_pc": 21.693386773547093,
+      "delta_pp": 0.0,
+      "sources_whose_flag_changed": 0,
+      "max_abs_prob_diff": 0.004103958606719971
+    },
+    "candidates_scale_lcc_max": {
+      "n": 1996,
+      "flip_cpu_pc": 21.54308617234469,
+      "flip_gpu_pc": 21.54308617234469,
+      "delta_pp": 0.0,
+      "sources_whose_flag_changed": 0,
+      "max_abs_prob_diff": 0.004103958606719971
+    },
+    "candidates_scale_p99": {
+      "n": 1996,
+      "flip_cpu_pc": 22.194388777555112,
+      "flip_gpu_pc": 22.24448897795591,
+      "delta_pp": 0.050100200400798656,
+      "sources_whose_flag_changed": 1,
+      "max_abs_prob_diff": 0.004557549953460693
+    },
+    "mirabest_confident_test": {
+      "n": 104,
+      "flip_cpu_pc": 8.653846153846153,
+      "flip_gpu_pc": 8.653846153846153,
+      "delta_pp": 0.0,
+      "sources_whose_flag_changed": 0,
+      "max_abs_prob_diff": 0.0031477510929107666
+    },
+    "mirabest_confident_train": {
+      "n": 729,
+      "flip_cpu_pc": 1.7832647462277091,
+      "flip_gpu_pc": 1.7832647462277091,
+      "delta_pp": 0.0,
+      "sources_whose_flag_changed": 0,
+      "max_abs_prob_diff": 0.004598766565322876
+    },
+    "mirabest_hybrid": {
+      "n": 34,
+      "flip_cpu_pc": 41.17647058823529,
+      "flip_gpu_pc": 41.17647058823529,
+      "delta_pp": 0.0,
+      "sources_whose_flag_changed": 0,
+      "max_abs_prob_diff": 0.002857118844985962
+    },
+    "mirabest_test_pipeline_rendered": {
+      "n": 104,
+      "flip_cpu_pc": 7.6923076923076925,
+      "flip_gpu_pc": 7.6923076923076925,
+      "delta_pp": 0.0,
+      "sources_whose_flag_changed": 0,
+      "max_abs_prob_diff": 0.004345536231994629
+    },
+    "mirabest_uncertain": {
+      "n": 389,
+      "flip_cpu_pc": 24.164524421593832,
+      "flip_gpu_pc": 24.164524421593832,
+      "delta_pp": 0.0,
+      "sources_whose_flag_changed": 0,
+      "max_abs_prob_diff": 0.004279106855392456
+    }
+  },
+  "max_abs_delta_pp": 0.050100200400798656
+}

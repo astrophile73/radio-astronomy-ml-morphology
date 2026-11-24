@@ -1,0 +1,104 @@
+{
+  "reference": {
+    "n": 104,
+    "k": 8,
+    "rate": 0.07692307692307693,
+    "ci_lo": 0.028846153846153848,
+    "ci_hi": 0.1346153846153846,
+    "wilson_lo": 0.039491280778462964,
+    "wilson_hi": 0.14449708734663902
+  },
+  "unrestricted": {
+    "n": 1996,
+    "k": 433,
+    "rate": 0.21693386773547094,
+    "ci_lo": 0.19889779559118237,
+    "ci_hi": 0.23547094188376755,
+    "wilson_lo": 0.19940514075746205,
+    "wilson_hi": 0.23555010769821566
+  },
+  "mirabest_extent_p10_p90_px": [
+    16.0,
+    39.10000000000001
+  ],
+  "mirabest_extent_p10_p90_arcsec": [
+    28.8,
+    70.38000000000002
+  ],
+  "frac_candidates_inside": {
+    "n": 1996,
+    "k": 465,
+    "rate": 0.23296593186372747,
+    "ci_lo": 0.21492985971943887,
+    "ci_hi": 0.251503006012024,
+    "wilson_lo": 0.2149445057419627,
+    "wilson_hi": 0.25201327731445544
+  },
+  "subsets": {
+    "pixel_size_restricted": {
+      "n": 465,
+      "flip": {
+        "n": 465,
+        "k": 106,
+        "rate": 0.22795698924731184,
+        "ci_lo": 0.18924731182795698,
+        "ci_hi": 0.26666666666666666,
+        "wilson_lo": 0.19214635487897447,
+        "wilson_hi": 0.2682257622710395
+      },
+      "ambiguity": {
+        "n": 465,
+        "median": 0.33650465793907647,
+        "ci_lo": 0.3121276812140422,
+        "ci_hi": 0.36457638013525867
+      },
+      "seed_disagree": {
+        "n": 465,
+        "k": 180,
+        "rate": 0.3870967741935484,
+        "ci_lo": 0.3419354838709677,
+        "ci_hi": 0.432258064516129,
+        "wilson_lo": 0.34392130146258293,
+        "wilson_hi": 0.4321224625720077
+      },
+      "tier": "NO RECOVERY",
+      "drop_pp_vs_unrestricted": -1.10231215118409,
+      "point_below_reference_upper": false,
+      "ci_overlaps_reference": false,
+      "ci_disjoint_from_unrestricted": false
+    },
+    "pixel_size_and_single_component": {
+      "n": 16,
+      "flip": {
+        "n": 16,
+        "k": 4,
+        "rate": 0.25,
+        "ci_lo": 0.0625,
+        "ci_hi": 0.5,
+        "wilson_lo": 0.10181901984237347,
+        "wilson_hi": 0.4949876892939865
+      },
+      "ambiguity": {
+        "n": 16,
+        "median": 0.4369981325566187,
+        "ci_lo": 0.25954052415036133,
+        "ci_hi": 0.49430481747549493
+      },
+      "seed_disagree": {
+        "n": 16,
+        "k": 7,
+        "rate": 0.4375,
+        "ci_lo": 0.1875,
+        "ci_hi": 0.6875,
+        "wilson_lo": 0.2309836333518552,
+        "wilson_hi": 0.6682180439322348
+      },
+      "tier": "NO RECOVERY",
+      "drop_pp_vs_unrestricted": -3.3066132264529062,
+      "point_below_reference_upper": false,
+      "ci_overlaps_reference": true,
+      "ci_disjoint_from_unrestricted": false
+    }
+  },
+  "verdict": "NO RECOVERY"
+}

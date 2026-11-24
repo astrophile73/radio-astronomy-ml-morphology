@@ -1,0 +1,84 @@
+{
+  "catalogue_rows": 946432,
+  "catalogue_file": "first_14dec17.fits.gz",
+  "n_candidates": 1996,
+  "n_other_component_pairs": 3075,
+  "frac_with_neighbour_1.0arcmin": {
+    "n": 1996,
+    "k": 1070,
+    "rate": 0.5360721442885772,
+    "ci_lo": 0.5135270541082164,
+    "ci_hi": 0.5581162324649298,
+    "wilson_lo": 0.5141455118299418,
+    "wilson_hi": 0.5578601910217241
+  },
+  "neighbour_count_1.0arcmin": {
+    "median": 1.0,
+    "mean": 0.9108216432865731,
+    "max": 8
+  },
+  "frac_with_neighbour_2.25arcmin": {
+    "n": 1996,
+    "k": 1369,
+    "rate": 0.685871743486974,
+    "ci_lo": 0.6653306613226453,
+    "ci_hi": 0.7059118236472945,
+    "wilson_lo": 0.665167705772542,
+    "wilson_hi": 0.7058616797547919
+  },
+  "neighbour_count_2.25arcmin": {
+    "median": 1.0,
+    "mean": 1.5405811623246493,
+    "max": 19
+  },
+  "nearest_other_component_arcsec": {
+    "n_with_any_within_2.25arcmin": 1369,
+    "median": 20.603059339369853,
+    "p10": 8.76460343529248,
+    "p90": 101.50211599463383
+  },
+  "flip_split_1.0arcmin": {
+    "multi_component": {
+      "n": 1070,
+      "k": 255,
+      "rate": 0.2383177570093458,
+      "ci_lo": 0.2130841121495327,
+      "ci_hi": 0.2635514018691589,
+      "wilson_lo": 0.21375368839826356,
+      "wilson_hi": 0.2647541287695571
+    },
+    "single_component": {
+      "n": 926,
+      "k": 178,
+      "rate": 0.19222462203023757,
+      "ci_lo": 0.1673866090712743,
+      "ci_hi": 0.21814254859611232,
+      "wilson_lo": 0.1681362549164717,
+      "wilson_hi": 0.218856110234754
+    },
+    "cis_disjoint": false,
+    "contributing_cause": false
+  },
+  "flip_split_2.25arcmin": {
+    "multi_component": {
+      "n": 1369,
+      "k": 326,
+      "rate": 0.2381300219138057,
+      "ci_lo": 0.21548575602629658,
+      "ci_hi": 0.26077428780131484,
+      "wilson_lo": 0.21631922650299917,
+      "wilson_hi": 0.26140639020325446
+    },
+    "single_component": {
+      "n": 627,
+      "k": 107,
+      "rate": 0.17065390749601275,
+      "ci_lo": 0.1419457735247209,
+      "ci_hi": 0.20095693779904306,
+      "wilson_lo": 0.1432333867292031,
+      "wilson_hi": 0.20208562837696614
+    },
+    "cis_disjoint": true,
+    "contributing_cause": true
+  }
+}
