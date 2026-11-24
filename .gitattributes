@@ -1,0 +1,37 @@
+# Normalise text to LF in the repository; Windows checkouts still get CRLF because
+# core.autocrlf is true locally. This also silences the "LF will be replaced by CRLF"
+# warnings on add.
+* text=auto eol=lf
+
+# Source and data-ish text
+*.py      text diff=python
+*.md      text
+*.txt     text
+*.csv     text
+*.json    text
+*.ini     text
+*.cfg     text
+*.yml     text
+*.yaml    text
+.gitattributes text
+.gitignore     text
+
+# Binary: never translate line endings. Git would normally detect these by content,
+# but an .npy array silently mangled by CRLF translation would be unrecoverable and
+# hard to notice, so the classification is stated rather than inferred.
+*.npy     binary
+*.npz     binary
+*.pth     binary
+*.pt      binary
+*.parquet binary
+*.fits    binary
+*.fits.gz binary
+*.gz      binary
+*.tar.gz  binary
+*.png     binary
+*.jpg     binary
+*.pdf     binary
+*.xlsx    binary
+
+# Notebooks are JSON but diff badly; keep them text, without merge noise expectations.
+*.ipynb   text

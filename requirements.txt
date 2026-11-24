@@ -1,0 +1,38 @@
+# Direct dependencies, pinned to the versions the recorded results were produced with.
+# A full resolved environment is in research/env_freeze.txt.
+#
+# PyTorch: the pins below are the CUDA 12.6 build for CPython 3.14 on Windows. CPU-only
+# wheels of the same versions exist and reproduce every result except the k-fold reference
+# training, which is impractically slow on CPU. Install torch from the PyTorch index:
+#
+#   pip install --index-url https://download.pytorch.org/whl/cu126 \
+#       torch==2.14.1+cu126 torchvision==0.29.1+cu126
+#   pip install -r requirements.txt
+#
+# Note on devices: all cached view-probability tensors were computed on one device (GPU).
+# CPU and GPU inference differ by up to ~4e-3 per-source probability, which moved one
+# dihedral flip flag out of 7348 sources. See research/device_consistency.json.
+
+astropy==8.0.1
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.11.2
+Pillow==12.3.0
+
+# Catalogue access. pyvo is used by the legacy notebook path; astroquery is used by
+# r1/extract.py. Note that the VizieR TAP host the notebooks hard-code
+# (tapvizier.cds.unistra.fr) stopped answering in November 2026 - see r1/config.py.
+pyvo==1.9.1
+astroquery==0.4.11
+requests==2.34.2
+
+# Parquet caches written by the Gate 3 scripts.
+pyarrow==25.0.1
+
+# Tests
+pytest==9.1.1
+
+# Installed from the PyTorch index, not PyPI - see the header.
+# torch==2.14.1+cu126
+# torchvision==0.29.1+cu126
