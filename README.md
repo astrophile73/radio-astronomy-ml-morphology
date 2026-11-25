@@ -3,11 +3,7 @@
 Diagnosing domain shift when a MiraBest-trained CNN ensemble is applied to a blind sample of
 FIRST catalogue components.
 
-**This repository is the supporting material for:**
-
-- the Research Note *A Label-Free Reliability Test for FR-I/FR-II Classification in Blind
-  Radio Surveys* (source in [`paper/`](paper/)), and
-- the archived Zenodo deposit [doi:10.5281/zenodo.24497097](https://doi.org/10.5281/zenodo.24497097).
+**This repository is the supporting material for** the archived Zenodo deposit [doi:10.5281/zenodo.24497097](https://doi.org/10.5281/zenodo.24497097).
 
 Arriving from the note and want to check a number?
 **[`paper/NOTE_TO_DATA.md`](paper/NOTE_TO_DATA.md)** maps every claim in it to the file that
