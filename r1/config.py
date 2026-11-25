@@ -33,7 +33,11 @@ CLEAN_NAMES_CSV = CANDIDATE_DIR / "FIRST_clean_names_final.csv"
 CLEAN_X_NPY = CANDIDATE_DIR / "FIRST_clean_X_final.npy"
 PREDICTIONS_CSV = CANDIDATE_DIR / "FIRST_predictions_master_v2.csv"
 
-ENSEMBLE_CHECKPOINTS = [REPO_ROOT / f"ensemble_seed{i}.pth" for i in range(5)]
+WEIGHTS_DIR = REPO_ROOT / "weights"
+ENSEMBLE_CHECKPOINTS = [WEIGHTS_DIR / f"ensemble_seed{i}.pth" for i in range(5)]
+# The single-model baseline from the first version of this work. Retained for provenance;
+# every reported result uses the five-seed ensemble above.
+BASELINE_CHECKPOINT = WEIGHTS_DIR / "best_mirabest_resnet18.pth"
 
 # ---------------------------------------------------------------------------
 # Instrument and preprocessing constants

@@ -29,3 +29,14 @@ mirabest_data/_batches_cache/
 research/*_run.log
 research/gate3_leg1b.log
 research/gate3_leg3.log
+
+# Working files, not part of the published repository
+CLAUDE_1.md
+KICKOFF_PROMPT.md
+literature_tracker_r1.xlsx
+
+# Third-party papers read during the work; not ours to redistribute
+literatures/
+
+# Stray directory created by a tool expanding ~ literally
+/~/

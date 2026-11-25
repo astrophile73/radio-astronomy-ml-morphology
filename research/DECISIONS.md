@@ -784,6 +784,67 @@ Gate 3 is now closed: G3-1a PASS, G3-1b PASS, G3-2 PASS, G3-3 descriptive.
 
 ---
 
+## 2026-11-24 — RNAAS limits verified; CLAUDE.md §6 is out of date
+
+Context: CLAUDE.md §6 specifies the draft as "≤1000 words, ≤1 figure per RNAAS limits —
+verify current limits on the AAS site before finalising". Verified against
+journals.aas.org/research-notes/ and journals.aas.org/research-note-preparation-guidelines/.
+
+The actual limits differ from the brief:
+- **1,500 words, not 1,000**, and the limit "includes title, headers, captions, and
+  references", with **150 words reserved for a required abstract**. An abstract has been
+  mandatory since 1 May 2020. The AAS Editorial Office's own count is the final arbiter.
+- **One figure OR one table, but not both.** Multi-panel figures are allowed if they fit on
+  a single print page.
+- Not peer reviewed; moderated by an editor for appropriateness and format, typically
+  published within 72 hours. Notes are published as submitted with no language review.
+- No author charges at present; CC-BY 4.0. Worth reconfirming before submission.
+- Scope explicitly includes "null results" and "comments and clarifications", which this
+  work fits. RNAAS "is unable to publish substantially novel theories".
+- A first author may submit at most twenty Notes in a 12-month period.
+
+Decision: write to 1,500 words inclusive with a 150-word abstract and one figure. The
+figure already exists. CLAUDE.md §6's "≤1000 words" should be corrected when that file is
+next edited; this entry is the authoritative number until then.
+
+Working word budget: abstract 150, title and byline ~20, figure caption ~70, references
+~130 for ten entries, headers ~15 if used — leaving roughly **1,100 words of body prose**.
+
+---
+
+## 2026-11-24 — Framing decisions for the note (Raj)
+
+Two questions that had been open since Gate 2 and were blocking the draft.
+
+**Headline: methodological.** The note leads on the dihedral flip rate as a cheap,
+label-free out-of-distribution score — 21.7% [19.9, 23.5] against a five-fold held-out
+reference of 11.4% [9.4, 13.6], a factor of 1.9 — because that is the leg that was
+pre-registered and passed, and because H3's failure means a survey pipeline cannot filter
+its way out and therefore needs a per-source score. The thin margin (+10.3 pp against a
+10 pp threshold) is stated in the note rather than smoothed over.
+
+The descriptive result (the candidate distribution being statistically indistinguishable
+from MiraBest's uncertain class) is **not** the headline, which also means the confirmatory
+equivalence test drafted on 2026-11-23 is not needed for this note. If that observation
+appears at all it is labelled post-hoc.
+
+**The "different task, not a harder task" reading: include, labelled as interpretation.**
+One or two sentences in the closing paragraph, explicitly flagged as an interpretation
+consistent with the results rather than as something tested. The note must not imply that
+any measurement here establishes that most candidates have no true FR label; doing so would
+need labels or a third class the project does not have.
+
+**Rejected framing, recorded so it is not revisited by accident:** an introduction built
+around three or four astrophysical problems, with the discussion "transitioning to
+astrophysical problems". This project produced no astrophysical result — no FR demographics,
+no luminosity function, and the environment analysis was dropped as a confound. Promising
+astrophysics and delivering classifier diagnostics would misrepresent the work. RNAAS scope
+explicitly covers null results and clarifications, so the note does not need that framing to
+belong there. An astrophysics-forward paper remains possible later, at a different venue,
+with results this project does not yet have.
+
+---
+
 ## 2026-11-23 — K-fold reference pre-registration (KF-1), approved by Raj
 
 Context: every candidate-side claim is compared against a reference of **8 flips in 104

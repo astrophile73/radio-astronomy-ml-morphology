@@ -259,8 +259,17 @@ Flip rate split by multiplicity:
 Two thirds of the candidates are not isolated sources. The pre-registration named both radii
 as reportable without saying which is decisive and they disagree — recorded in DECISIONS.md as
 a defect rather than resolved by choosing the convenient one. Critically, **single-component
-candidates still flip at 17.1–19.2%, i.e. 2.2–2.5× the 7.7% reference with no interval
-overlap**, so component confusion is not the explanation.
+candidates still flip at 17.1–19.2%, i.e. 1.50–1.68× the primary k-fold reference of 11.4%
+with no interval overlap**, so component confusion is not the explanation.
+
+Ratio note: this comparison read 2.2–2.5× before Gate 5, when the reference was the n = 104
+value of 7.7%. The factor fell when the better-powered reference raised the baseline to
+11.4%; the conclusion (single-component candidates remain well above the reference, so
+component confusion does not explain the instability) is unchanged. **All ratios in this
+file are against 11.4% unless a different reference is named.** For the record, against the
+k-fold reference: candidates 1.90×, single-component 1.50× (2.25′) and 1.68× (1′),
+size-restricted 2.04× (catalogue FWHM) and 2.00× (pixel extent), MiraBest uncertain 2.12×,
+MiraBest hybrid 3.61×.
 
 Catalogue provenance: `first_14dec17.fits.gz` from `sundog.stsci.edu`, read back as exactly
 946 432 rows — the same total the notebook obtained from VizieR, verified before matching.

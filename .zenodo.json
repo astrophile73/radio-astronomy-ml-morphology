@@ -1,0 +1,46 @@
+{
+  "title": "A Label-Free Reliability Test for FR-I/FR-II Classification in Blind Radio Surveys",
+  "upload_type": "software",
+  "license": "MIT",
+  "doi": "10.5281/zenodo.24497097",
+  "version": "1.0.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Kondekar, Raj",
+      "orcid": "0009-0008-8798-2540"
+    }
+  ],
+  "description": "<p>Code, pre-registered analysis record and results for a study of how a MiraBest-trained FR-I/FR-II classifier behaves when applied to a blind sample of FIRST catalogue components.</p><p>A five-seed ResNet-18 ensemble was applied to 1996 extended FIRST components. Only 15.3 per cent of the sample falls inside MiraBest's angular-size range. Predicted class changes under a rotation or mirror for 21.7 per cent (19.9-23.5) of candidates, against 11.4 per cent (9.4-13.6) for MiraBest sources held out under five-fold cross-validation. Restricting candidates to MiraBest's angular-size range, or to isolated components, does not recover stability, so selection cannot repair the transfer. Ensemble seed disagreement fails as a diagnostic once referenced against a properly powered baseline.</p><p>research/DECISIONS.md records the pass/fail criterion fixed before each test ran, including criteria that failed and thresholds that were deliberately not moved. research/RESULTS.md gives every reported number with its uncertainty, sample size, data split and the script that produced it, including three results from an earlier version of this work that were withdrawn rather than deleted.</p><p>Not included, and documented in the README: the FIRST cutouts and catalogue (obtainable through r1.extract and from STScI), and the MiraBest_F dataset and its loader (obtainable from the Jodrell Bank MiraBest release; no licence could be established for the loader, so it is not redistributed here).</p><p>This archive corresponds to tag <code>v1.0.0</code> of https://github.com/astrophile73/radio-astronomy-ml-morphology</p><p>Licence: code MIT; text, figures and result files CC-BY-4.0.</p>",
+  "keywords": [
+    "radio astronomy",
+    "radio galaxies",
+    "Fanaroff-Riley classification",
+    "FIRST survey",
+    "MiraBest",
+    "domain shift",
+    "out-of-distribution detection",
+    "convolutional neural networks",
+    "galaxy morphology",
+    "model reliability",
+    "deep learning",
+    "active galactic nuclei",
+    "VLA",
+    "reproducibility",
+    "pre-registration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/astrophile73/radio-astronomy-ml-morphology",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1093/mnras/stx007",
+      "relation": "cites",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ],
+  "notes": "Related identifier 10.1093/mnras/stx007 is Miraghaei & Best (2017), MNRAS 466, 4346, the source of the MiraBest morphology labels; verified via Crossref 2026-11-24."
+}

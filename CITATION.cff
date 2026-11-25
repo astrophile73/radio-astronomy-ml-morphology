@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+title: >-
+  A Label-Free Reliability Test for FR-I/FR-II Classification
+  in Blind Radio Surveys
+message: >-
+  If you use this software or its results, please cite both
+  the software (this record) and the Research Note it
+  supports.
+type: software
+authors:
+  - family-names: Kondekar
+    given-names: Raj
+    orcid: "https://orcid.org/0009-0008-8798-2540"
+repository-code: >-
+  https://github.com/astrophile73/radio-astronomy-ml-morphology
+abstract: >-
+  Code, pre-registered analysis record and results for a study
+  of how a MiraBest-trained FR-I/FR-II classifier behaves when
+  applied to a blind sample of FIRST catalogue components.
+  Predicted class changes under a rotation or mirror for 21.7
+  per cent of candidates, against 11.4 per cent for MiraBest
+  sources held out under five-fold cross-validation.
+  Restricting candidates to MiraBest's angular-size range, or
+  to isolated components, does not recover stability.
+keywords:
+  - radio astronomy
+  - radio galaxies
+  - Fanaroff-Riley classification
+  - FIRST survey
+  - MiraBest
+  - domain shift
+  - out-of-distribution detection
+  - convolutional neural networks
+  - reproducibility
+license: MIT
+version: 1.0.0
+# date-released is the date this version was released, not the date
+# work began. Set it to the day you tag v1.0.0 and publish the Zenodo
+# record. See research/DECISIONS.md for the project timeline.
+date-released: "2026-11-24"
+doi: "10.5281/zenodo.24497097"
+references:
+  - type: article
+    authors:
+      - family-names: Miraghaei
+        given-names: H.
+      - family-names: Best
+        given-names: P. N.
+    title: >-
+      The nuclear properties and extended morphologies of
+      powerful radio galaxies
+    journal: Monthly Notices of the Royal Astronomical Society
+    year: 2017
+    volume: 466
+    issue: 4
+    start: 4346
+    notes: >-
+      Source of the MiraBest morphology labels. Verified.
+      The citation for the MiraBest_F dataset release itself
+      is NOT yet verified - see third_party/README.md.
