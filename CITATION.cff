@@ -33,11 +33,11 @@ keywords:
   - convolutional neural networks
   - reproducibility
 license: MIT
-version: 1.0.0
+version: 1.0.1
 # date-released is the date this version was released, not the date
 # work began. Set it to the day you tag v1.0.0 and publish the Zenodo
 # record. See research/DECISIONS.md for the project timeline.
-date-released: "2026-11-24"
+date-released: "2026-11-25"
 doi: "10.5281/zenodo.24497097"
 references:
   - type: article

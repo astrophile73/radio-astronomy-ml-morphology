@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "r1-fr-reliability"
-version = "1.0.0"
+version = "1.0.1"
 description = "Label-free reliability diagnostics for FR-I/FR-II classifiers applied to blind radio survey catalogues"
 readme = "README.md"
 requires-python = ">=3.11"

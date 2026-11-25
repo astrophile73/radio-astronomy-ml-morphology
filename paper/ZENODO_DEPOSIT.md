@@ -8,7 +8,7 @@ Working notes for preparing the single Zenodo record. Not part of the deposit it
 - [ ] Add your ORCID to `CITATION.cff` and `.zenodo.json`
 - [ ] Reserve the DOI on Zenodo, then paste it into `CITATION.cff`, `README.md` and the
       draft's data-availability line **before** tagging
-- [ ] Tag the repo `v1.0.0` and record the commit SHA in the Zenodo description
+- [ ] Tag the repo `v1.0.1` and record the commit SHA in the Zenodo description
 - [ ] Confirm `pytest` passes from a clean clone
 
 ## Files to include
@@ -105,7 +105,7 @@ EuroSciVoc term the dropdown actually offers.
 > split and the script that produced it, including three results from an earlier version of
 > this work that were withdrawn rather than deleted.
 >
-> This archive corresponds to tag v1.0.0 of
+> This archive corresponds to tag v1.0.1 of
 > https://github.com/astrophile73/radio-astronomy-ml-morphology
 >
 > Not included, and documented in the README: the FIRST cutouts and catalogue (obtainable
